@@ -1,0 +1,28 @@
+var group___group_i2_s___functions =
+[
+    [ "I2sIrqHandler", "group___group_i2_s___functions.html#gadf60a9875c4085ec18ab432435ca3f13", null ],
+    [ "I2s_EnableIrq", "group___group_i2_s___functions.html#gaa6aec46e2cc3bb00a77ace627c2ca5d4", null ],
+    [ "I2s_DisableIrq", "group___group_i2_s___functions.html#gad8fedfac77fe8d10eea523932d9974ba", null ],
+    [ "I2s_InitClk", "group___group_i2_s___functions.html#ga5767ba8a22291e7f034dad61be577c2c", null ],
+    [ "I2s_DeInitClk", "group___group_i2_s___functions.html#ga44b8c52d4dd6193f8628b866ef471eca", null ],
+    [ "I2s_EnablePll", "group___group_i2_s___functions.html#ga913dc49bd618a3db298d51a2cf79be7f", null ],
+    [ "I2s_CheckPllReady", "group___group_i2_s___functions.html#ga80b4c60a86fc3f243a4f1318cfa813c6", null ],
+    [ "I2s_DisablePll", "group___group_i2_s___functions.html#gacabb679fe6e45d217f3674d3eb3142a6", null ],
+    [ "I2s_StartClk", "group___group_i2_s___functions.html#ga531cb5895c6a20807e654a0c2bafcade", null ],
+    [ "I2s_StopClk", "group___group_i2_s___functions.html#ga84dc32b5074120d859b931f356a6b07d", null ],
+    [ "I2s_Init", "group___group_i2_s___functions.html#gaeea681f683ceaa6df9f72db4aba43b00", null ],
+    [ "I2s_DeInit", "group___group_i2_s___functions.html#gafbb05b03946b24c841bcc5438d157de2", null ],
+    [ "I2s_Start", "group___group_i2_s___functions.html#ga9aeb6f6dee9de157e5a3d653c02a2bce", null ],
+    [ "I2s_Stop", "group___group_i2_s___functions.html#ga6c513f7465dfcfb0fa0d17f9b2a97400", null ],
+    [ "I2s_Reset", "group___group_i2_s___functions.html#ga459438f05da9d9e17236b93fede954d7", null ],
+    [ "I2s_EnableTx", "group___group_i2_s___functions.html#gae869fec79ecb4d43418545d8d5af4547", null ],
+    [ "I2s_DisableTx", "group___group_i2_s___functions.html#ga9a41b3f21a0a6583f88c98741a6ce643", null ],
+    [ "I2s_EnableRx", "group___group_i2_s___functions.html#ga2157343b5979593994ac398ed8ff3fad", null ],
+    [ "I2s_DisableRx", "group___group_i2_s___functions.html#gab0ab7024e16314944d7f63cd732035ce", null ],
+    [ "I2s_GetStatus", "group___group_i2_s___functions.html#ga05bbe4d7e1aff77e6d9caff89955dddb", null ],
+    [ "I2s_ClrStatus", "group___group_i2_s___functions.html#gab765e07079ac7f4bb383ae78906bbcce", null ],
+    [ "I2s_WriteTxFifo", "group___group_i2_s___functions.html#ga6227a55ed92989cfad1fec56a299cf23", null ],
+    [ "I2s_ReadRxFifo", "group___group_i2_s___functions.html#ga1fc313726d8d97c6ea6bf5caa7d23711", null ],
+    [ "I2s_GetTxFifoNumber", "group___group_i2_s___functions.html#ga05f06b866100755f3e7a3fa0586f58ed", null ],
+    [ "I2s_GetRxFifoNumber", "group___group_i2_s___functions.html#ga4af1e93cfd8c27aae97bd72629417e72", null ]
+];

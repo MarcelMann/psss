@@ -1,0 +1,26 @@
+var group___group_q_p_r_c___functions =
+[
+    [ "Qprc_Init", "group___group_q_p_r_c___functions.html#ga8ab0d570c80df5fb422e40a8013bf12c", null ],
+    [ "Qprc_DeInit", "group___group_q_p_r_c___functions.html#ga8f90b803ef756f673b5e75054f401cba", null ],
+    [ "Qprc_StopPcCount", "group___group_q_p_r_c___functions.html#gab2b69e6407d321f22b7f958bc8af9039", null ],
+    [ "Qprc_RestartPcCount", "group___group_q_p_r_c___functions.html#ga8c11d83f9820aac74c49ac8b1dda5460", null ],
+    [ "Qprc_SetPcCount", "group___group_q_p_r_c___functions.html#gaaa49f384a7426c9ff1520bad0f402ccd", null ],
+    [ "Qprc_GetPcCount", "group___group_q_p_r_c___functions.html#ga31499df2640bbfd4a6d6f7e831a1fd58", null ],
+    [ "Qprc_SetRcCount", "group___group_q_p_r_c___functions.html#gad3eed3236390c6733a7840e2b27e1b39", null ],
+    [ "Qprc_GetRcCount", "group___group_q_p_r_c___functions.html#gaaf53a9ed24102e9ddb51a76a2915d307", null ],
+    [ "Qprc_SetPcMaxValue", "group___group_q_p_r_c___functions.html#ga9cbfba9955eaaaf8caf8fe32d82b9bd8", null ],
+    [ "Qprc_GetPcMaxValue", "group___group_q_p_r_c___functions.html#ga7da362565a68cf5dd0092e7de2e9ee01", null ],
+    [ "Qprc_SetPcCompareValue", "group___group_q_p_r_c___functions.html#ga5c7d715a138f2b02c888986c08da6420", null ],
+    [ "Qprc_GetPcCompareValue", "group___group_q_p_r_c___functions.html#ga012f0b8331b04cf8e8e88d0ac5374ba1", null ],
+    [ "Qprc_SetPcRcCompareValue", "group___group_q_p_r_c___functions.html#ga948f4ac1ed6f38e1e8f3f36638f210aa", null ],
+    [ "Qprc_GetPcRcCompareValue", "group___group_q_p_r_c___functions.html#ga3a15e44048567927085d947532bd4bd2", null ],
+    [ "Qprc_ConfigPcMode", "group___group_q_p_r_c___functions.html#gadfb136a7847582ea6efed7cf28df642c", null ],
+    [ "Qprc_ConfigRcMode", "group___group_q_p_r_c___functions.html#ga56b29c620235740c8c5067fef409357b", null ],
+    [ "Qprc_EnableIrq", "group___group_q_p_r_c___functions.html#gac30c3d179384368297518695aea65a6d", null ],
+    [ "Qprc_DisableIrq", "group___group_q_p_r_c___functions.html#ga456699685b474403d9ed41427f63de6c", null ],
+    [ "Qprc_GetIrqFlag", "group___group_q_p_r_c___functions.html#ga8dc01f5d98779562d36a6c5555d71d18", null ],
+    [ "Qprc_ClrIrqFlag", "group___group_q_p_r_c___functions.html#ga60c272c7d855c08cb726868678d1b2ca", null ],
+    [ "Qprc_GetPcOfUfDir", "group___group_q_p_r_c___functions.html#gaaa255a4315188edd110d11644b5ff91a", null ],
+    [ "Qprc_GetPcDir", "group___group_q_p_r_c___functions.html#gad66b28b5a6ddc1ed6c20bc136b9ffea2", null ],
+    [ "Qprc_IrqHandler", "group___group_q_p_r_c___functions.html#gada2db176d8277bd1dbc70ddec9fb01ce", null ]
+];

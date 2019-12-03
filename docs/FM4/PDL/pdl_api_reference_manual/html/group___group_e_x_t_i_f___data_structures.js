@@ -1,0 +1,67 @@
+var group___group_e_x_t_i_f___data_structures =
+[
+    [ "stc_extif_arrays_t", "structstc__extif__arrays__t.html", [
+      [ "au32MODE", "structstc__extif__arrays__t.html#a80bc21928e52af279a273515a0081e53", null ],
+      [ "astcMODE", "structstc__extif__arrays__t.html#a49c83abfc8f6ac29deec6b60af31325d", null ],
+      [ "au32TIM", "structstc__extif__arrays__t.html#add21d928529fae1c3798430a99ebd4e0", null ],
+      [ "astcTIM", "structstc__extif__arrays__t.html#ac7363795679154986447bf2c01bbc16a", null ],
+      [ "au32AREA", "structstc__extif__arrays__t.html#aa5284ca2234cbe857af083eed626c4a1", null ],
+      [ "astcAREA", "structstc__extif__arrays__t.html#a45181c6e17e410354a2473f4f2504e6b", null ],
+      [ "au32ATIM", "structstc__extif__arrays__t.html#a6cb1a997a10f8ef95a6f87fff1f998c2", null ],
+      [ "astcATIM", "structstc__extif__arrays__t.html#ad2710d21cf5322ce3e317b622627e833", null ]
+    ] ],
+    [ "stc_extif_sdram_config_t", "structstc__extif__sdram__config__t.html", [
+      [ "bSdramEnable", "structstc__extif__sdram__config__t.html#a34c9a16e5e80b78c43b9a227a8f76479", null ],
+      [ "bSdramPowerDownMode", "structstc__extif__sdram__config__t.html#a8332cf90ddc0448cfa72c23d72c73079", null ],
+      [ "bSdramRefreshOff", "structstc__extif__sdram__config__t.html#a47e10a61dea8ebc63657c509ea707b37", null ],
+      [ "enCasel", "structstc__extif__sdram__config__t.html#abe5751b6b83eccaf91f141f11b89ead4", null ],
+      [ "enRasel", "structstc__extif__sdram__config__t.html#a093d69c29a45cd599bd4958da5208ab1", null ],
+      [ "enBasel", "structstc__extif__sdram__config__t.html#a4a26732a040809d2774f3125bcc325eb", null ],
+      [ "u16RefreshCount", "structstc__extif__sdram__config__t.html#a20857ecb85f684a8e97809370ef33e23", null ],
+      [ "u8RefreshNumber", "structstc__extif__sdram__config__t.html#a89ffdc59783811620ea9a1111fb32135", null ],
+      [ "bPreRefreshEnable", "structstc__extif__sdram__config__t.html#aed536ca94f8ddbfbf05771d505729ee2", null ],
+      [ "u16PowerDownCount", "structstc__extif__sdram__config__t.html#af82b3064d9c7aed36613192e029653db", null ],
+      [ "enSdramCasLatencyCycle", "structstc__extif__sdram__config__t.html#a00f7b30790d64492e8abc9267b84dafc", null ],
+      [ "enSdramRasCycle", "structstc__extif__sdram__config__t.html#a477d0d3f8b0c00a87b7732519c7feba9", null ],
+      [ "enSdramRasPrechargeCycle", "structstc__extif__sdram__config__t.html#a0927db720f4d04b1b1da63875133dcc8", null ],
+      [ "enSdramRasCasDelayCycle", "structstc__extif__sdram__config__t.html#a9e53e910569cea05ef33c4fe8d7d20db", null ],
+      [ "enSdramRasActiveCycle", "structstc__extif__sdram__config__t.html#a9f52b217cd9067f40ea3b4f86d87e93b", null ],
+      [ "enSdramRefreshCycle", "structstc__extif__sdram__config__t.html#ab842f932249459d376480115fc2dd1fb", null ],
+      [ "enSdramPrechargeCycle", "structstc__extif__sdram__config__t.html#a9e04c8c64d21c59b0268ee7f46e2a133", null ],
+      [ "bSdramErrorInterruptEnable", "structstc__extif__sdram__config__t.html#a052f78de608d70dbc0190bafefc522d0", null ],
+      [ "pfnSdramErrorCallback", "structstc__extif__sdram__config__t.html#a40621a06fd7a045a35ab6e9251f07771", null ]
+    ] ],
+    [ "stc_extif_area_config_t", "structstc__extif__area__config__t.html", [
+      [ "enWidth", "structstc__extif__area__config__t.html#af6aae85fc52e505ace96be8a1ca91877", null ],
+      [ "bReadByteMask", "structstc__extif__area__config__t.html#ac8cf8ed651b43b8caef91a10577cbb97", null ],
+      [ "bWriteEnableOff", "structstc__extif__area__config__t.html#af6b74c9fb5aac3f989da07863b65c385", null ],
+      [ "bNandFlash", "structstc__extif__area__config__t.html#a0510fc3f346fffb7ca69d1b858553062", null ],
+      [ "bPageAccess", "structstc__extif__area__config__t.html#af570027249c9a1107d1335b61a2b78ae", null ],
+      [ "enReadAccessCycle", "structstc__extif__area__config__t.html#a3633fb8a431e06fe4307cb5719896cf0", null ],
+      [ "enReadAddressSetupCycle", "structstc__extif__area__config__t.html#ae3e751f19baa81c026f75b978fb22861", null ],
+      [ "enFirstReadAddressCycle", "structstc__extif__area__config__t.html#ab975c7514ec25a36fcd821277ab52421", null ],
+      [ "enReadIdleCycle", "structstc__extif__area__config__t.html#a52eeda8736ca1656f3782f180ba03cb7", null ],
+      [ "enWriteAccessCycle", "structstc__extif__area__config__t.html#a3815324f258f0ea002405fd2a4db3303", null ],
+      [ "enWriteAddressSetupCycle", "structstc__extif__area__config__t.html#a8377b5616d5e9455f47a24b3b7200498", null ],
+      [ "enWriteEnableCycle", "structstc__extif__area__config__t.html#ab07f780217d019e8e743c920c6d2a446", null ],
+      [ "enWriteIdleCycle", "structstc__extif__area__config__t.html#a81bebc02846537971928b0441e7d64d5", null ],
+      [ "u8AreaAddress", "structstc__extif__area__config__t.html#a281b972bf72f58c531880a45175cb1b5", null ],
+      [ "enAreaMask", "structstc__extif__area__config__t.html#abe46933280577a08bd7562a0000c44b8", null ],
+      [ "enAddressLatchCycle", "structstc__extif__area__config__t.html#a4316c015dc4fb7fe337f8ac7622ff4e1", null ],
+      [ "enAddressLatchSetupCycle", "structstc__extif__area__config__t.html#aa61f05d0176f9d051c420af66550b30f", null ],
+      [ "enAddressLatchWidthCycle", "structstc__extif__area__config__t.html#a4aadac1074e825fc9c79f9a709392eb6", null ],
+      [ "bPrecedReadContinuousWrite", "structstc__extif__area__config__t.html#a502e82383c8be060eb4ad46828c11677", null ],
+      [ "pExtifSdramConfig", "structstc__extif__area__config__t.html#ae16780ba0257f792158af479a85c8b27", null ],
+      [ "pGdcSdramConfig", "structstc__extif__area__config__t.html#a4b4f222300594e14af314cf4ea502705", null ],
+      [ "bSramFlashErrorInterruptEnable", "structstc__extif__area__config__t.html#a768ba95441af432135947ac630285f8a", null ],
+      [ "pfnSramFlashErrorCallback", "structstc__extif__area__config__t.html#afd772b0bdb18a9e96f870ed35d5d5b24", null ]
+    ] ],
+    [ "stc_extif_intern_data_t", "structstc__extif__intern__data__t.html", [
+      [ "bSdramErrorInterruptEnable", "structstc__extif__intern__data__t.html#a1dff7bd0f072329e37c4c2395e90f1f5", null ],
+      [ "bSramFlashErrorInterruptEnable", "structstc__extif__intern__data__t.html#a9ecbd9e36266a16ae1172c57c0c7af21", null ],
+      [ "bGdcSdramErrorInterruptEnable", "structstc__extif__intern__data__t.html#a77a67ddac304c8afdb44a05edc3adc5e", null ],
+      [ "pfnSdramErrorCallback", "structstc__extif__intern__data__t.html#a86eec1b5383fbbd8618cfdd40d445e62", null ],
+      [ "pfnSramFlashErrorCallback", "structstc__extif__intern__data__t.html#a752554641ab46637cfb8437a5bd720c6", null ],
+      [ "pfnGdcSdramErrorCallback", "structstc__extif__intern__data__t.html#ac500c6dd0793cea8ce7e21225d24c1cb", null ]
+    ] ]
+];

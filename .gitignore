@@ -50,3 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+s6e2ccxj/projects/iar/output/
+s6e2ccxj/projects/mdk/output/
