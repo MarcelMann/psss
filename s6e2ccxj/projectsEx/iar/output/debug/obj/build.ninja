@@ -1,0 +1,34 @@
+#Generating source browse information for project s6e2ccxj_template
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build system_s6e2cc.pbi : index system_s6e2cc.xcl
+build mfs.pbi : index mfs.xcl
+build pdl.pbi : index pdl.xcl
+build main.pbi : index main.xcl
+build uart_io.pbi : index uart_io.xcl
+build s6e2ccxj_template_part0.pbi : link system_s6e2cc.pbi mfs.pbi
+build s6e2ccxj_template_part1.pbi : link pdl.pbi main.pbi
+build s6e2ccxj_template_part2.pbi : link uart_io.pbi
+build s6e2ccxj_template.pbd : link s6e2ccxj_template_part0.pbi s6e2ccxj_template_part1.pbi s6e2ccxj_template_part2.pbi
+build s6e2ccxj_template.pbw : browsedata s6e2ccxj_template.pbd
+
+

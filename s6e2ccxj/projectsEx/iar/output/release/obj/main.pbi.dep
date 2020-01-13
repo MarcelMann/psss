@@ -1,0 +1,28 @@
+main.pbi: \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\at_uart.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdio.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\utilities\printf_scanf\uart_io.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\drivers\mfs\mfs.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\drivers\gpio\gpio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\drivers\base_types.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\drivers\pdl.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\pdl_user.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\drivers\pdl_header.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\common\gpio_s6e2ccxj.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\common\system_s6e2cc.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\include\core_cmSimd.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\include\core_cmFunc.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\iccarm_builtin.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\cmsis_iar.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\include\core_cmInstr.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\include\core_cm4.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\common\s6e2ccxj.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\iar\..\..\common\mcu.h \
+  C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projects\main.c

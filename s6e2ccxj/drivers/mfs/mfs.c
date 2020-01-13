@@ -820,7 +820,7 @@ static stc_mfs_intern_data_t* MfsUartGetInternDataPtr(volatile stc_mfsn_uart_t* 
  ******************************************************************************/
 void MfsUartIrqHandlerRx( volatile stc_mfsn_uart_t*   pstcUart,
                           stc_mfs_intern_data_t* pstcMfsInternData)
-{
+{  //printf("RXINT CALLED");
     if ((NULL != pstcUart) && (NULL != pstcMfsInternData))
     {
         if (NULL != pstcMfsInternData->stcUartInternIrqCb.pfnRxIrqCb)

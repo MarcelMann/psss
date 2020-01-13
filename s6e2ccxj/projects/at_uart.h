@@ -6,10 +6,9 @@
 
 #define AT_UART_CH &UART3
 
-void init_at_uart();
+void init_at_uart(void);
 uint8_t sendAtCommand(char * cmd);
 void sendChar(char c);
-int readAnswer(char* ptr);
-
+int readAnswer(void);
 
 #endif 

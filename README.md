@@ -2,13 +2,16 @@
 PSSS WSN for C/C++ material
 
 ## Hardware
-
-https://www.amazon.de/ESP-07-WLAN-Modul-ESP8266-Keramikantenne-Arduino/dp/B01HQR9T9M
-
+ESP-AT-Tutorial und anderes nützliches:
 http://stefanfrings.de/esp8266/
+
 
 ESP Adhoc   
 https://www.researchgate.net/publication/323868854_An_Ad-Hoc_Network_based_on_Low_cost_Wi-Fi_Device_for_IoT_Device_Communication
+
+Software: 
+ESP8266_NONOS_SDK-3.0.1 (aber auch eigenes binary erstellt -> Complete_AT_Firmware.bin)
+flash_download_tools_v3.6.7
 
 ## Routing
 reaktiv - proaktiv  
@@ -38,3 +41,21 @@ Beide reaktiv, sollten sich aber auch proaktiv machen lassen.
 OLSR
 http://www.olsr.org/mediawiki/index.php/OLSR.org_Network_Framework   
 V2: https://tools.ietf.org/html/rfc7181
+
+
+### Wichtige AT-Commands
+
+CUR -> not in flash  
+DEF -> save in flash
+
+Commands
+* AT
+* AT+CWMODE(_CUR/DEF) - set Mode
+	* 1 Station
+	* 2 AP
+	* 3 Combo
+	
+* AT+CWLAP - List AP
+* AT+CWLAPOPT=<sort><mask> - Configure CWLAP output
+	* 1,14 -> mask for [ssid, rssi, mac]
+	

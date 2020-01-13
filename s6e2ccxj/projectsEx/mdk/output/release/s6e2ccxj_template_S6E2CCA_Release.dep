@@ -1,0 +1,85 @@
+Dependencies for Project 's6e2ccxj_template', Target 'S6E2CCA_Release': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\..\common\system_s6e2cc.c)(0x579B6876)(-c --cpu Cortex-M4.fp -D__EVAL -O3 --apcs=interwork -I ..\..\common -I ..\..\include -I ..\..\drivers -I ..\..\utilities-I.\RTE\_S6E2CCA_Release-IC:\Users\MarcelMann\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM4_FP-o .\output\release\system_s6e2cc.o --depend .\output\release\system_s6e2cc.d)
+I (..\..\common\mcu.h)(0x579B6C26)
+I (..\..\common\s6e2ccxj.h)(0x579B6C48)
+I (..\..\include\core_cm4.h)(0x579B5A76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\..\include\core_cmInstr.h)(0x579B5A76)
+I (..\..\include\cmsis_armcc.h)(0x579B5A76)
+I (..\..\include\core_cmFunc.h)(0x579B5A76)
+I (..\..\include\core_cmSimd.h)(0x579B5A76)
+I (..\..\common\system_s6e2cc.h)(0x579B6876)
+I (..\..\common\gpio_s6e2ccxj.h)(0x579B6876)
+F (..\main.c)(0x5E15E2F5)(-c --cpu Cortex-M4.fp -D__EVAL -O3 --apcs=interwork -I ..\..\common -I ..\..\include -I ..\..\drivers -I ..\..\utilities-I.\RTE\_S6E2CCA_Release-IC:\Users\MarcelMann\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM4_FP-o .\output\release\main.o --depend .\output\release\main.d)
+I (..\..\common\mcu.h)(0x579B6C26)
+I (..\..\common\s6e2ccxj.h)(0x579B6C48)
+I (..\..\include\core_cm4.h)(0x579B5A76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\..\include\core_cmInstr.h)(0x579B5A76)
+I (..\..\include\cmsis_armcc.h)(0x579B5A76)
+I (..\..\include\core_cmFunc.h)(0x579B5A76)
+I (..\..\include\core_cmSimd.h)(0x579B5A76)
+I (..\..\common\system_s6e2cc.h)(0x579B6876)
+I (..\..\common\gpio_s6e2ccxj.h)(0x579B6876)
+I (..\..\drivers\pdl_header.h)(0x579B60F8)
+I (..\..\common\pdl_user.h)(0x5DE3FFA3)
+I (..\..\drivers\pdl.h)(0x579B60F8)
+I (..\..\drivers\base_types.h)(0x579B60F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (..\..\drivers\gpio/gpio.h)(0x579B5A78)
+I (..\..\drivers\mfs/mfs.h)(0x579B5A78)
+I (..\..\utilities\printf_scanf/uart_io.h)(0x579B5A9E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (..\at_uart.h)(0x5E15E2AA)
+I (..\pdl_user.h)(0x5DE3FFA3)
+F (.\startup_s6e2cc.s)(0x579B6C26)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" --apcs=interwork -I.\RTE\_S6E2CCA_Release-IC:\Users\MarcelMann\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "ARMCM4_FP SETA 1"-o .\output\release\startup_s6e2cc.o --depend .\output\release\startup_s6e2cc.d)
+F (..\..\drivers\pdl.c)(0x579B60F8)(-c --cpu Cortex-M4.fp -D__EVAL -O3 --apcs=interwork -I ..\..\common -I ..\..\include -I ..\..\drivers -I ..\..\utilities-I.\RTE\_S6E2CCA_Release-IC:\Users\MarcelMann\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM4_FP-o .\output\release\pdl.o --depend .\output\release\pdl.d)
+I (..\..\drivers\pdl.h)(0x579B60F8)
+I (..\..\common\mcu.h)(0x579B6C26)
+I (..\..\common\s6e2ccxj.h)(0x579B6C48)
+I (..\..\include\core_cm4.h)(0x579B5A76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\..\include\core_cmInstr.h)(0x579B5A76)
+I (..\..\include\cmsis_armcc.h)(0x579B5A76)
+I (..\..\include\core_cmFunc.h)(0x579B5A76)
+I (..\..\include\core_cmSimd.h)(0x579B5A76)
+I (..\..\common\system_s6e2cc.h)(0x579B6876)
+I (..\..\common\gpio_s6e2ccxj.h)(0x579B6876)
+I (..\..\drivers\base_types.h)(0x579B60F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+F (..\..\drivers\mfs\mfs.c)(0x579B5A78)(-c --cpu Cortex-M4.fp -D__EVAL -O3 --apcs=interwork -I ..\..\common -I ..\..\include -I ..\..\drivers -I ..\..\utilities-I.\RTE\_S6E2CCA_Release-IC:\Users\MarcelMann\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM4_FP-o .\output\release\mfs.o --depend .\output\release\mfs.d)
+I (..\..\drivers\mfs/mfs.h)(0x579B5A78)
+I (..\..\common\mcu.h)(0x579B6C26)
+I (..\..\common\s6e2ccxj.h)(0x579B6C48)
+I (..\..\include\core_cm4.h)(0x579B5A76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\..\include\core_cmInstr.h)(0x579B5A76)
+I (..\..\include\cmsis_armcc.h)(0x579B5A76)
+I (..\..\include\core_cmFunc.h)(0x579B5A76)
+I (..\..\include\core_cmSimd.h)(0x579B5A76)
+I (..\..\common\system_s6e2cc.h)(0x579B6876)
+I (..\..\common\gpio_s6e2ccxj.h)(0x579B6876)
+I (..\..\common\pdl_user.h)(0x5DE3FFA3)
+I (..\..\drivers\pdl.h)(0x579B60F8)
+I (..\..\drivers\base_types.h)(0x579B60F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+F (..\..\utilities\printf_scanf\uart_io.c)(0x579B5A9E)(-c --cpu Cortex-M4.fp -D__EVAL -O3 --apcs=interwork -I ..\..\common -I ..\..\include -I ..\..\drivers -I ..\..\utilities-I.\RTE\_S6E2CCA_Release-IC:\Users\MarcelMann\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DARMCM4_FP-o .\output\release\uart_io.o --depend .\output\release\uart_io.d)
+I (..\..\utilities\printf_scanf\uart_io.h)(0x579B5A9E)
+I (..\..\common\mcu.h)(0x579B6C26)
+I (..\..\common\s6e2ccxj.h)(0x579B6C48)
+I (..\..\include\core_cm4.h)(0x579B5A76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\..\include\core_cmInstr.h)(0x579B5A76)
+I (..\..\include\cmsis_armcc.h)(0x579B5A76)
+I (..\..\include\core_cmFunc.h)(0x579B5A76)
+I (..\..\include\core_cmSimd.h)(0x579B5A76)
+I (..\..\common\system_s6e2cc.h)(0x579B6876)
+I (..\..\common\gpio_s6e2ccxj.h)(0x579B6876)
+I (..\..\common\pdl_user.h)(0x5DE3FFA3)
+I (..\..\drivers\pdl.h)(0x579B60F8)
+I (..\..\drivers\base_types.h)(0x579B60F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (..\..\drivers\mfs\mfs.h)(0x579B5A78)
+I (..\..\drivers\gpio\gpio.h)(0x579B5A78)

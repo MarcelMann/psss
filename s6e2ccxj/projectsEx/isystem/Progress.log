@@ -1,0 +1,10 @@
+CONVERTING	C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projectsEx\isystem\release\s6e2ccxj_template.elf
+LOADING	C:\Users\MarcelMann\Documents\Git\psss\s6e2ccxj\projectsEx\isystem\release\s6e2ccxj_template.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: Cortex (JTAG,SWD)   CPU: FM3/FM4
+DEBUG	PROTOCOL: SWD; RESET: SoC
+PROGRAMMING 	42880 bytes
+UMI INFO	Loading UMI monitor...
+PROGRAMMING	Cypress FM4_TYPE3_MACRO0_1032KB(**) (5 sectors)
+UMI INFO	Unloading UMI monitor...
