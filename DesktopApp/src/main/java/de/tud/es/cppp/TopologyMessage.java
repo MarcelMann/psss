@@ -91,6 +91,7 @@ public class TopologyMessage{
         sta_mac = (String) nodeInfo.get("sta_mac");
         uplink_bssid = (String) nodeInfo.get("uplink_bssid");
         ap_ip = (String) nodeInfo.get("ap_ip");
+        sta_ip = (String) nodeInfo.get("sta_ip");
         rssi = Integer.parseInt((String) nodeInfo.get("rssi"));
         no_stas = Integer.parseInt((String) nodeInfo.get("no_stas"));
         mesh_level = Integer.parseInt((String) nodeInfo.get("mesh_level"));

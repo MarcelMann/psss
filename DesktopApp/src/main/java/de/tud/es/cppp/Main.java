@@ -23,7 +23,7 @@ public class Main {
 
         String topic        = "/WiFii/#";
         //String broker       = "tcp://192.168.178.201:1883";
-        String broker =  "tcp://127.0.0.1:18884";
+        String broker =  "tcp://127.0.0.1:1883";
         String clientId     = "DesktopApp";
 
 

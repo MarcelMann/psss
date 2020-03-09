@@ -72,7 +72,7 @@ public class NetworkNodeTreePane extends JComponent {
     private final static Color BOX_COLOR = Color.orange;
     private final static Color BORDER_COLOR = Color.darkGray;
     private final static Color TEXT_COLOR = Color.black;
-
+    // TODO: visualize rssi at edge
     private void paintEdges(Graphics g, NetworkNode parent) {
         if (!getTree().isLeaf(parent)) {
             Rectangle2D.Double b1 = getBoundsOfNode(parent);

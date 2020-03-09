@@ -62,6 +62,7 @@ public class Handler {
         String staMac = msg.getSta_mac();
         NetworkNode node;
         logger.info("Handling message from Node ["+nodeId+"]");
+        // TODO: implement the case, where a node is known as Sta AND as Ap already
 
         // Check if Node is already known
         if (nodesById.containsKey(nodeId)) {
@@ -71,11 +72,8 @@ public class Handler {
         } else if(unknownStaMacs.containsKey(staMac)){
             logger.debug("Node is known as Station already");
             node = unknownStaMacs.get(staMac);
-            logger.debug("Node is known as Station already");
             node.handleMessage(msg);
-            logger.debug("Node is known as Station already");
             nodesById.put(nodeId, node);
-            logger.debug("Node is known as Station already");
             unknownStaMacs.remove(staMac);
         } else if (unknownApMacs.containsKey(apMac)){
             logger.debug("Node is known as AP already");
@@ -168,19 +166,27 @@ public class Handler {
             return true;
         }
     }
+    private NetworkNode getNodeWhere(String uplinkBSSID, Function<NetworkNode, String> func){
+        HashMap<String, NetworkNode> allNodes = new HashMap<>();
+        allNodes.putAll(nodesById);
+        allNodes.putAll(unknownApMacs);
+        allNodes.putAll(unknownStaMacs);
 
+        for (NetworkNode other : allNodes.values()){
+            if (func.apply(other).equals(uplinkBSSID)){
+                return other;
+            }
+        }
+        return null;
+    }
+    
     private NetworkNode findUplinkNode(String uplinkBSSID){
-        for (NetworkNode other : nodesById.values()){
-            if (other.getApMac().equals(uplinkBSSID)){
-                return other;
-            }
-        }
-        for (NetworkNode other : unknownApMacs.values()){
-            if (other.getApMac().equals(uplinkBSSID)){
-                return other;
-            }
-        }
-        for (NetworkNode other : unknownStaMacs.values()){
+        HashMap<String, NetworkNode> allNodes = new HashMap<>();
+        allNodes.putAll(nodesById);
+        allNodes.putAll(unknownApMacs);
+        allNodes.putAll(unknownStaMacs);
+
+        for (NetworkNode other : allNodes.values()){
             if (other.getApMac().equals(uplinkBSSID)){
                 return other;
             }
@@ -188,28 +194,7 @@ public class Handler {
         return null;
     }
     private NetworkNode findStationNode(String mac) {
-        Stream<NetworkNode> s1 = nodesById.values().stream();
-        Stream<NetworkNode> s2 = unknownApMacs.values().stream();
-        Stream<NetworkNode> s3 = unknownStaMacs.values().stream();
-        Stream<Stream<NetworkNode>> s = Stream.of(s1, s2, s3);
-        Stream<NetworkNode> a = s.flatMap(Function.identity());
-        a.filter(n->n.getStaMac().equals(mac));
-        a.forEach(n->logger.info(n.getNodeInfo()));
-
-
-
-
         for (NetworkNode other : nodesById.values()){
-            if (other.getStaMac().equals(mac)){
-                return other;
-            }
-        }
-        for (NetworkNode other : unknownApMacs.values()){
-            if (other.getStaMac().equals(mac)){
-                return other;
-            }
-        }
-        for (NetworkNode other : unknownStaMacs.values()){
             if (other.getStaMac().equals(mac)){
                 return other;
             }
@@ -222,6 +207,8 @@ public class Handler {
         // Handle Uplink
         String uplinkBSSID = node.getUplink_bssid();
         NetworkNode myUplinkNode = findUplinkNode(uplinkBSSID);
+        NetworkNode myUplinkNode2 = getNodeWhere(uplinkBSSID, NetworkNode::getApMac);
+        logger.info("EQUALS: " + myUplinkNode.equals(myUplinkNode2));
         if (myUplinkNode == null) {
             // Uplink not found, create new Node as Uplink
             myUplinkNode = new NetworkNode();
