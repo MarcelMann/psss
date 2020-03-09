@@ -3,7 +3,7 @@ package de.tud.es.cppp;
 
 import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
-import javafx.geometry.Rectangle2D;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

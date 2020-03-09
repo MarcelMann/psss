@@ -22,10 +22,8 @@ public class Main {
         logger = LogManager.getLogger("Main");
 
         String topic        = "/WiFii/#";
-        String content      = "Message from MqttPublishSample";
-        int qos             = 2;
         //String broker       = "tcp://192.168.178.201:1883";
-        String broker =  "tcp://127.0.0.1:1883";
+        String broker =  "tcp://127.0.0.1:18884";
         String clientId     = "DesktopApp";
 
 

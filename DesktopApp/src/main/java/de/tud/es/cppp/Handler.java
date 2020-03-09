@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 import org.abego.treelayout.TreeLayout;
@@ -187,6 +188,17 @@ public class Handler {
         return null;
     }
     private NetworkNode findStationNode(String mac) {
+        Stream<NetworkNode> s1 = nodesById.values().stream();
+        Stream<NetworkNode> s2 = unknownApMacs.values().stream();
+        Stream<NetworkNode> s3 = unknownStaMacs.values().stream();
+        Stream<Stream<NetworkNode>> s = Stream.of(s1, s2, s3);
+        Stream<NetworkNode> a = s.flatMap(Function.identity());
+        a.filter(n->n.getStaMac().equals(mac));
+        a.forEach(n->logger.info(n.getNodeInfo()));
+
+
+
+
         for (NetworkNode other : nodesById.values()){
             if (other.getStaMac().equals(mac)){
                 return other;
