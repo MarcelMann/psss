@@ -18,6 +18,10 @@ uint8_t sendAtCommand(char* cmd){
         //readAnswer();
 	return 0;
 }
+void sendChar(char c){
+	while (TRUE != Mfs_Uart_GetStatus(AT_UART_CH, UartTxEmpty)); /* wait until TX buffer empty */
+    Mfs_Uart_SendData(AT_UART_CH, c); 
+}
 #define ANSWER_MAX_LINES 20
 #define ANSWER_MAX_LENGTH 100
 #define OK_LINE "OK\r\n"

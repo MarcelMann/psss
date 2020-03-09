@@ -1,0 +1,5 @@
+set ssid MindFi
+set password MindFiSecure
+set automesh 1
+save
+reset

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2501576445</fileChecksum>
+    <configuration>
+        <name>S6E2CCA_Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\mfs\mfs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\pdl.c</file>
+            <file>$PROJ_DIR$\..\..\common\system_s6e2cc.c</file>
+            <file>$PROJ_DIR$\output\debug\list\s6e2ccxj_template.map</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\base_types.h</file>
+            <file>$PROJ_DIR$\output\debug\obj\system_s6e2cc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\output\debug\obj\main.o</file>
+            <file>$PROJ_DIR$\output\debug\exe\s6e2ccxj_template.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\linker\s6e2cca_ram.icf</file>
+            <file>$PROJ_DIR$\output\debug\obj\mfs.__cstat.et</file>
+            <file>$PROJ_DIR$\output\debug\obj\startup_s6e2cc.o</file>
+            <file>$PROJ_DIR$\output\debug\obj\mfs.xcl</file>
+            <file>$PROJ_DIR$\output\debug\obj\main.xcl</file>
+            <file>$PROJ_DIR$\output\debug\obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\pdl_header.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\utilities\printf_scanf\uart_io.h</file>
+            <file>$PROJ_DIR$\output\debug\obj\mfs.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\output\debug\obj\uart_io.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\utilities\printf_scanf\uart_io.c</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\output\debug\obj\uart_io.o</file>
+            <file>$PROJ_DIR$\output\debug\obj\system_s6e2cc.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\pdl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\startup_s6e2cc.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\gpio\gpio.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cmSimd.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\output\debug\obj\system_s6e2cc.xcl</file>
+            <file>$PROJ_DIR$\..\..\common\mcu.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\output\debug\obj\uart_io.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\common\pdl_user.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\output\debug\obj\pdl.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\mfs\mfs.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\output\debug\obj\pdl.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\common\gpio_s6e2ccxj.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\common\s6e2ccxj.h</file>
+            <file>$PROJ_DIR$\..\..\common\system_s6e2cc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\output\debug\obj\pdl.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 3 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\mfs\mfs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 38 51 43 42 47 39 50 33 53 35 44 32 36 34 52 49 41 25 4 28 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\pdl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 38 51 43 42 47 39 50 33 53 35 44 32 36 34 52 49 4 28 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\common\system_s6e2cc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 51 43 42 47 39 50 33 53 35 44 32 36 34 52 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\output\debug\exe\s6e2ccxj_template.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 10 7 18 54 12 24 23 30 19 31 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\utilities\printf_scanf\uart_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 38 51 43 42 47 39 50 33 53 35 44 32 36 34 52 49 41 25 4 28 26 9 46 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 51 43 42 47 39 50 33 53 35 44 32 36 34 52 49 16 41 25 4 28 26 29 46 17 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_s6e2cc.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>S6E2CCA_Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\pdl_user.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\mfs\mfs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\pdl.c</file>
+            <file>$PROJ_DIR$\..\..\common\system_s6e2cc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\base_types.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\at_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\utilities\printf_scanf\uart_io.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\utilities\printf_scanf\uart_io.c</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\pdl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\at_uart.h</file>
+            <file>$PROJ_DIR$\startup_s6e2cc.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\output\release\obj\pdl.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\output\release\obj\mfs.o</file>
+            <file>$PROJ_DIR$\..\..\drivers\pdl.h</file>
+            <file>$PROJ_DIR$\..\uart.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cmSimd.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\output\release\exe\s6e2ccxj_template.srec</file>
+            <file>$PROJ_DIR$\..\..\common\mcu.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\common\pdl_user.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\common\gpio_s6e2ccxj.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\output\release\obj\system_s6e2cc.xcl</file>
+            <file>$PROJ_DIR$\..\..\common\s6e2ccxj.h</file>
+            <file>$PROJ_DIR$\..\..\common\system_s6e2cc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\output\release\obj\at_uart.o</file>
+            <file>$PROJ_DIR$\..\..\drivers\gpio\gpio.h</file>
+            <file>$PROJ_DIR$\output\release\obj\mfs.xcl</file>
+            <file>$PROJ_DIR$\..\..\drivers\base_types.h</file>
+            <file>$PROJ_DIR$\output\release\obj\uart.xcl</file>
+            <file>$PROJ_DIR$\output\release\obj\uart.o</file>
+            <file>$PROJ_DIR$\output\release\obj\at_uart.xcl</file>
+            <file>$PROJ_DIR$\output\release\obj\startup_s6e2cc.o</file>
+            <file>$PROJ_DIR$\..\..\drivers\mfs\mfs.h</file>
+            <file>$PROJ_DIR$\output\release\obj\main.o</file>
+            <file>$PROJ_DIR$\output\release\obj\system_s6e2cc.o</file>
+            <file>$PROJ_DIR$\output\release\obj\uart_io.xcl</file>
+            <file>$PROJ_DIR$\output\release\exe\s6e2ccxj_template.out</file>
+            <file>$PROJ_DIR$\output\release\list\s6e2ccxj_template.map</file>
+            <file>$PROJ_DIR$\output\release\obj\main.xcl</file>
+            <file>$PROJ_DIR$\linker\s6e2cca_rom.icf</file>
+            <file>$PROJ_DIR$\output\release\obj\uart_io.o</file>
+            <file>$PROJ_DIR$\output\release\obj\s6e2ccxj_template.pbd</file>
+            <file>$PROJ_DIR$\output\release\obj\pdl.xcl</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 54 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\mfs\mfs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 29 39 33 32 35 30 37 24 41 26 34 20 27 25 40 36 31 22 45 16 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\drivers\pdl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 29 39 33 32 35 30 37 24 41 26 34 20 27 25 40 36 4 16 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\common\system_s6e2cc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29 39 33 32 35 30 37 24 41 26 34 20 27 25 40 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\at_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\PortableApps\Cypress\PDL\2.1.0\utilities\printf_scanf\uart_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 29 39 33 32 35 30 37 24 41 26 34 20 27 25 40 36 31 22 45 16 13 6 50 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_s6e2cc.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\output\release\exe\s6e2ccxj_template.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 57 42 51 21 19 49 52 58 17 9 18 5</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

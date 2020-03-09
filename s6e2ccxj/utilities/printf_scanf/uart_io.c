@@ -93,15 +93,14 @@ int _write(int file, char *ptr, int len)
     int i;
     file = file;
     for(i = 0; i < len; i++)
-    {
+    {   
         if(*ptr == '\n')
         {
-            while (TRUE != Mfs_Uart_GetStatus(UartCh, UartTxEmpty))
-            {
-                /* Wait for room in the Tx FIFO */
-            };
+            while (TRUE != Mfs_Uart_GetStatus(UartCh, UartTxEmpty));
             Mfs_Uart_SendData(UartCh, '\r');
         }
+        
+      
         while (TRUE != Mfs_Uart_GetStatus(UartCh, UartTxEmpty))
         {
             /* Wait for room in the Tx FIFO */
